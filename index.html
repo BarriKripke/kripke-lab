@@ -8,285 +8,177 @@
 </head>
 <body>
 
+<div class="boot" id="boot">
+  <div class="terminal">
+    <p>> Initializing KRIPKE LAB OS...</p>
+    <p>> Loading Telegram Engine...</p>
+    <p>> Loading Web Automation...</p>
+    <p>> Loading Android Module...</p>
+    <p class="ready">> READY</p>
+  </div>
+</div>
+
+<div class="bg-grid"></div>
+
 <header class="hero">
   <nav class="nav">
     <a class="brand" href="#">
       <span class="brand-mark">KL</span>
-      <span>
-        <b>KRIPKE LAB</b>
-        <small>Лаборатория автоматизации</small>
-      </span>
+      <span><b>KRIPKE LAB</b><small>automation studio</small></span>
     </a>
-
     <div class="nav-links">
-      <a href="#services">Услуги</a>
+      <a href="#services">Модули</a>
       <a href="#portfolio">Портфолио</a>
-      <a href="#apk">APK</a>
-      <a href="#faq">FAQ</a>
       <a href="#contacts">Контакты</a>
     </div>
   </nav>
 
-  <div class="hero-content">
-    <div class="tag">Telegram • Web • Android • Data</div>
+  <div class="hero-product">
+    <div class="hero-copy">
+      <div class="eyebrow">Telegram • Web • Android • Data • AI</div>
+      <h1>Лаборатория автоматизации для бизнеса</h1>
+      <p>
+        Собираем сайты, Telegram-ботов, Android WebView-приложения,
+        парсеры, таблицы, CRM-панели и цифровые витрины под задачу.
+      </p>
+      <div class="buttons">
+        <a class="btn" href="https://t.me/kripke_lab_bot">Запустить проект</a>
+        <a class="btn ghost" href="#portfolio">Смотреть работы</a>
+      </div>
+    </div>
 
-    <h1>Автоматизация, которая помогает получать заявки и экономить время</h1>
+    <div class="product-panel">
+      <div class="panel-top">
+        <span class="dot green"></span>
+        <span class="dot yellow"></span>
+        <span class="dot blue"></span>
+        <b>Kripke Lab Flow</b>
+      </div>
 
-    <p>
-      Делаем Telegram-ботов, сайты, Android-приложения, парсеры,
-      автоматизацию таблиц, CRM-панели и оформление для маркетплейсов.
-    </p>
+      <div class="flow">
+        <div class="flow-card active">
+          <span>01</span>
+          <b>Telegram Bot</b>
+          <p>Клиент оставляет заявку</p>
+        </div>
 
-    <div class="buttons">
-      <a class="btn" href="https://t.me/kripke_lab_bot">Оставить заявку</a>
-      <a class="btn secondary" href="#portfolio">Смотреть портфолио</a>
+        <div class="flow-line"></div>
+
+        <div class="flow-card">
+          <span>02</span>
+          <b>CRM / Admin</b>
+          <p>Заявка приходит админу</p>
+        </div>
+
+        <div class="flow-line"></div>
+
+        <div class="flow-card">
+          <span>03</span>
+          <b>Parser / Sheets</b>
+          <p>Данные уходят в таблицы</p>
+        </div>
+
+        <div class="flow-line"></div>
+
+        <div class="flow-card">
+          <span>04</span>
+          <b>Web / Android</b>
+          <p>Витрина работает 24/7</p>
+        </div>
+      </div>
+
+      <div class="panel-status">
+        <span class="pulse"></span>
+        SYSTEM ONLINE
+      </div>
     </div>
   </div>
 </header>
 
-<section class="stats">
-  <div><b>Telegram</b><span>боты, заявки, магазины</span></div>
+<section class="metrics">
+  <div><b>Telegram</b><span>боты, магазины, заявки</span></div>
   <div><b>Web</b><span>сайты, формы, панели</span></div>
-  <div><b>Android</b><span>APK и WebView</span></div>
+  <div><b>Android</b><span>приложения из сайта</span></div>
   <div><b>Data</b><span>парсеры, Excel, Sheets</span></div>
 </section>
 
-<section class="section">
-  <h2>Что можно заказать</h2>
-  <p class="section-text">
-    Мы собираем прикладные решения: без лишней теории, с понятной логикой,
-    рабочим результатом и возможностью быстро запустить проект.
-  </p>
-
-  <div class="feature-grid">
-    <div class="feature-card">
-      <h3>Быстрый MVP</h3>
-      <p>Можно начать с простой версии: бот заявок, сайт-визитка, парсер или приложение из сайта.</p>
-    </div>
-
-    <div class="feature-card">
-      <h3>Связь через Telegram</h3>
-      <p>Заявки, уведомления, отчёты и сообщения можно отправлять прямо в Telegram.</p>
-    </div>
-
-    <div class="feature-card">
-      <h3>Под бизнес-задачу</h3>
-      <p>Не шаблон ради шаблона, а решение под конкретную задачу: продажи, заявки, данные, каталог.</p>
-    </div>
-  </div>
-</section>
-
 <section id="services" class="section">
-  <h2>Каталог услуг</h2>
-  <p class="section-text">
-    Основные направления Kripke Lab. Каждую услугу можно заказать отдельно или собрать в одну систему.
-  </p>
+  <h2>Модули Kripke Lab</h2>
+  <p class="section-text">Можно заказать один модуль или собрать систему: сайт → бот → заявки → таблицы → приложение.</p>
 
-  <div class="catalog">
-    <div class="service-card">
-      <div class="icon">🤖</div>
-      <h3>Telegram-боты</h3>
-      <p>Заявки, каталоги, магазины, оплаты, рассылки, уведомления, админ-панели.</p>
-      <span>от 3 000 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">🌐</div>
-      <h3>Сайты</h3>
-      <p>Лендинги, сайты-визитки, формы заявок, портфолио, доработка готовых сайтов.</p>
-      <span>от 4 000 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">📱</div>
-      <h3>Android-приложения</h3>
-      <p>WebView-приложения, APK-файл, приложение из сайта, мобильная витрина бизнеса.</p>
-      <span>от 5 000 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">📊</div>
-      <h3>Excel / Google Sheets</h3>
-      <p>Автоматизация таблиц, отчёты, формулы, обработка данных, импорт и выгрузки.</p>
-      <span>от 2 000 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">🔎</div>
-      <h3>Парсеры сайтов</h3>
-      <p>Сбор товаров, цен, контактов, объявлений и другой информации в Excel / CSV.</p>
-      <span>от 4 000 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">🛒</div>
-      <h3>Маркетплейсы</h3>
-      <p>Карточки WB / Ozon, инфографика, описания, таблицы товаров и отчёты.</p>
-      <span>от 1 500 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">🎨</div>
-      <h3>Баннеры и объявления</h3>
-      <p>Оформление для Avito, Telegram, сайта, карточек услуг и рекламных публикаций.</p>
-      <span>от 1 500 ₽</span>
-    </div>
-
-    <div class="service-card">
-      <div class="icon">⚙️</div>
-      <h3>Доработка проектов</h3>
-      <p>Исправление ошибок, настройка ботов, сайтов, скриптов, интеграций и кода.</p>
-      <span>по задаче</span>
-    </div>
+  <div class="modules">
+    <article><span>01</span><h3>Telegram Engine</h3><p>Боты заявок, каталоги, магазины, оплаты, рассылки, уведомления.</p><b>от 3 000 ₽</b></article>
+    <article><span>02</span><h3>Web Interface</h3><p>Лендинги, сайты-визитки, формы, портфолио, доработка сайтов.</p><b>от 4 000 ₽</b></article>
+    <article><span>03</span><h3>Android Shell</h3><p>APK из сайта, WebView-приложения, мобильная витрина бизнеса.</p><b>от 5 000 ₽</b></article>
+    <article><span>04</span><h3>Parser Core</h3><p>Сбор цен, товаров, контактов, объявлений и данных в Excel / CSV.</p><b>от 4 000 ₽</b></article>
+    <article><span>05</span><h3>Sheets Automation</h3><p>Excel, Google Sheets, отчёты, формулы, автоматизация рутины.</p><b>от 2 000 ₽</b></article>
+    <article><span>06</span><h3>Marketplace Pack</h3><p>Карточки WB / Ozon, инфографика, описания, таблицы товаров.</p><b>от 1 500 ₽</b></article>
   </div>
 </section>
 
-<section id="portfolio" class="section portfolio-section">
+<section id="portfolio" class="section">
   <h2>Портфолио</h2>
-  <p class="section-text">
-    Примеры работ и направлений, которые показывают, какие задачи можно закрыть одной системой.
-  </p>
+  <p class="section-text">Примеры направлений, которые показывают, какие задачи закрывает Kripke Lab.</p>
 
-  <div class="portfolio-grid">
-    <article class="work-card">
-      <img src="images/telegram-zayavki.png" alt="Telegram-бот для заявок">
-      <div><h3>Telegram-бот для заявок</h3><p>Приём заявок, вопросы клиенту и уведомления администратору.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/telegram-shop.png" alt="Telegram-магазин">
-      <div><h3>Telegram-магазин</h3><p>Категории, товары, кнопки, оформление заказа через бота.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/telegram-payment.png" alt="Telegram-бот с оплатой">
-      <div><h3>Telegram-бот с оплатой</h3><p>Сценарии покупки, проверка оплаты и выдача результата.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/telegram-miniapp.png" alt="Telegram Mini App">
-      <div><h3>Telegram Mini App</h3><p>Мини-приложение внутри Telegram для каталога или сервиса.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/android-site.png" alt="Android-приложение из сайта">
-      <div><h3>Android-приложение из сайта</h3><p>WebView-приложение и APK-файл для сайта или витрины.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/site-to-telegram.png" alt="Форма сайта в Telegram">
-      <div><h3>Форма сайта в Telegram</h3><p>Заявки с сайта приходят владельцу прямо в Telegram.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/parser-excel.png" alt="Парсер сайта в Excel">
-      <div><h3>Парсер сайта в Excel</h3><p>Сбор данных с сайта в таблицу Excel, CSV или Google Sheets.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/parser-price.png" alt="Парсер цен конкурентов">
-      <div><h3>Парсер цен конкурентов</h3><p>Мониторинг цен, товаров и изменений на сайтах конкурентов.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/excel-sheets.png" alt="Автоматизация Excel и Google Sheets">
-      <div><h3>Excel / Google Sheets</h3><p>Отчёты, графики, автоматизация таблиц и расчётов.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/admin-panel.png" alt="Админ-панель">
-      <div><h3>Админ-панель / CRM</h3><p>Заявки, клиенты, статусы, статистика и управление данными.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/marketplace-card.png" alt="Карточка товара WB Ozon">
-      <div><h3>Карточка WB / Ozon</h3><p>Инфографика, преимущества товара и визуальная упаковка.</p></div>
-    </article>
-
-    <article class="work-card">
-      <img src="images/marketplace-gallery-1.png" alt="Карточки маркетплейсов">
-      <div><h3>Карточки маркетплейсов</h3><p>Серия изображений для товара, каталога или рекламной витрины.</p></div>
-    </article>
-  </div>
-</section>
-
-<section id="apk" class="apk-section">
-  <div class="apk-box">
-    <div class="apk-content">
-      <span class="apk-label">Android demo</span>
-      <h2>APK-приложение Kripke Lab</h2>
-      <p>
-        Демонстрация услуги: сайт можно превратить в Android-приложение.
-        После сборки здесь будет доступен APK-файл для установки.
-      </p>
-    </div>
-
-    <a class="btn" href="downloads/kripke-lab.apk" download>Скачать APK</a>
-  </div>
-</section>
-
-<section class="section process">
-  <h2>Как проходит работа</h2>
-
-  <div class="steps">
-    <div><b>1</b><span>Вы описываете задачу</span></div>
-    <div><b>2</b><span>Мы предлагаем решение и стоимость</span></div>
-    <div><b>3</b><span>Делаем рабочую версию</span></div>
-    <div><b>4</b><span>Передаём проект и помогаем запустить</span></div>
+  <div class="portfolio">
+    <article><img src="images/telegram-zayavki.png"><div><h3>Telegram-бот заявок</h3><p>Сбор заявок и уведомления админу.</p></div></article>
+    <article><img src="images/telegram-shop.png"><div><h3>Telegram-магазин</h3><p>Каталог, товары, кнопки заказа.</p></div></article>
+    <article><img src="images/telegram-payment.png"><div><h3>Бот с оплатой</h3><p>Сценарии покупки и проверка оплаты.</p></div></article>
+    <article><img src="images/android-site.png"><div><h3>Android из сайта</h3><p>WebView-приложение и APK.</p></div></article>
+    <article><img src="images/parser-excel.png"><div><h3>Парсер в Excel</h3><p>Сбор данных в таблицы.</p></div></article>
+    <article><img src="images/admin-panel.png"><div><h3>Админ-панель / CRM</h3><p>Заявки, клиенты, статусы.</p></div></article>
   </div>
 </section>
 
 <section class="section">
-  <h2>Почему Kripke Lab</h2>
-
-  <div class="trust-grid">
-    <div><h3>Понятный результат</h3><p>Сразу видно, что будет на выходе: бот, сайт, таблица, APK или автоматизация.</p></div>
-    <div><h3>Без лишней сложности</h3><p>Начинаем с простой рабочей версии, а не с огромной системы на месяцы.</p></div>
-    <div><h3>Поддержка после запуска</h3><p>Помогаем проверить, поправить и объяснить, как пользоваться проектом.</p></div>
-    <div><h3>Удобная связь</h3><p>Обсуждение задачи, заявки и уведомления можно вести через Telegram.</p></div>
+  <h2>Как проходит запуск</h2>
+  <div class="timeline">
+    <div><b>01</b><span>Разбираем задачу</span></div>
+    <div><b>02</b><span>Выбираем простой MVP</span></div>
+    <div><b>03</b><span>Собираем рабочую версию</span></div>
+    <div><b>04</b><span>Проверяем и дорабатываем</span></div>
+    <div><b>05</b><span>Запускаем и передаём проект</span></div>
   </div>
 </section>
 
-<section id="faq" class="section faq">
-  <h2>FAQ</h2>
-
-  <div class="faq-list">
-    <details>
-      <summary>Можно начать с простой версии?</summary>
-      <p>Да. Часто лучше сначала сделать MVP: бот заявок, сайт-визитку, простой парсер или WebView-приложение.</p>
-    </details>
-
-    <details>
-      <summary>Что нужно для оценки стоимости?</summary>
-      <p>Краткое описание задачи, пример похожего решения, список нужных функций и желаемые сроки.</p>
-    </details>
-
-    <details>
-      <summary>Можно доработать уже готовый проект?</summary>
-      <p>Да. Можно исправить ошибки, добавить функции, настроить бота, сайт, таблицы или скрипты.</p>
-    </details>
-
-    <details>
-      <summary>Можно сделать сайт и приложение вместе?</summary>
-      <p>Да. Сайт можно использовать как основу, а Android-приложение сделать как мобильную WebView-витрину.</p>
-    </details>
+<section id="apk" class="apk">
+  <div>
+    <small>Android demo</small>
+    <h2>APK-приложение Kripke Lab</h2>
+    <p>Скоро здесь будет доступна демонстрация приложения сайта.</p>
   </div>
+  <a class="btn" href="downloads/kripke-lab.apk" download>Скачать APK</a>
 </section>
 
 <section id="contacts" class="section contacts">
-  <h2>Обсудить задачу</h2>
-  <p>Напишите в Telegram — разберём задачу, предложим вариант решения и назовём стоимость.</p>
+  <h2>Связь с Kripke Lab</h2>
+  <p>Выберите удобную площадку или оставьте заявку через Telegram-бота.</p>
 
-  <div class="contact-grid">
-    <a href="https://t.me/kripke_barry">👤 @kripke_barry</a>
-    <a href="https://t.me/kripke_lab_bot">🤖 @kripke_lab_bot</a>
-    <a href="https://t.me/kripkelab">📢 t.me/kripkelab</a>
+  <div class="contacts-grid">
+    <a href="https://t.me/kripke_lab_bot">🤖 Telegram-бот</a>
+    <a href="https://t.me/kripkelab">📢 Telegram-канал</a>
+    <a href="https://t.me/kripke_barry">👤 Админ Telegram</a>
+    <a href="https://vk.com/kripkelab">VK профиль</a>
+    <a href="https://vk.com/kripkelab_official">VK сообщество</a>
+    <a class="disabled" href="#">YouTube скоро</a>
+    <a class="disabled" href="#">TikTok скоро</a>
   </div>
 </section>
 
-<footer>
-  <p>© Kripke Lab | Лаборатория автоматизации</p>
-</footer>
+<footer>© Kripke Lab | Лаборатория автоматизации</footer>
 
+<div class="chat-widget">
+  <div class="chat-window">
+    <button class="chat-close">×</button>
+    <b>🤖 Kripke Lab Bot</b>
+    <p>Здравствуйте! Чем помочь?</p>
+    <a href="https://t.me/kripke_lab_bot">Оставить заявку</a>
+    <a href="#services">Посмотреть услуги</a>
+    <a href="https://t.me/kripke_barry">Написать админу</a>
+  </div>
+  <button class="chat-button">🤖</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
